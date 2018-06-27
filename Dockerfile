@@ -16,7 +16,8 @@ ENV PATH ${PATH}:/opt/ant/bin
 
 RUN cd && \
     apt-get update && \
-    apt-get install -y curl libc6 libcurl3 zlib1g
+    apt-get install -y curl libc6 libcurl3 zlib1g && \
+    apt-get -y install git
 
 # Define default command.
 CMD ["bash"]
