@@ -5,7 +5,7 @@ MAINTAINER Adriano de Souza "souzadriano@gmail.com"
 WORKDIR /data
 
 # Installs Ant
-ENV ANT_VERSION 1.9.9
+ENV ANT_VERSION 1.9.12
 RUN cd && \
     wget -q http://www.us.apache.org/dist//ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz && \
     tar -xzf apache-ant-${ANT_VERSION}-bin.tar.gz && \
